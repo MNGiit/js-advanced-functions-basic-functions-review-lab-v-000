@@ -14,3 +14,6 @@ function wrapAdjective(theSymbol = "*") {
   }
 }
 
+function Calculator() {
+  
+}
