@@ -10,7 +10,12 @@ function mondayWork(activity = "go to the office") {
 
 function wrapAdjective(theSymbol) {
   return function(theAdjective) {
-    return 'You are';
+    return `You are ${theSymbol}${theAdjective}${theSymbol}!`;
   }
 }
 
+let wrapAdjective = function(style="*") {
+  return function(adjective="special") {
+    return `You are ${style}${adjective}${style}!`
+  }
+}
