@@ -14,8 +14,3 @@ function wrapAdjective(theSymbol) {
   }
 }
 
-let wrapAdjective = function(style="*") {
-  return function(adjective="special") {
-    return `You are ${style}${adjective}${style}!`
-  }
-}
