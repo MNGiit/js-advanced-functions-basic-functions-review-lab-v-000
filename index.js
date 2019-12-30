@@ -20,7 +20,6 @@ const Calculator = {
   add: function(a,b) {
     return a + b;
   }, // don't forget ,
-  
   subtract: function(a,b) {
     return a - b;
   }
