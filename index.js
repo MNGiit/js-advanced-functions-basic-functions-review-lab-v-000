@@ -31,6 +31,10 @@ const Calculator = {
   }
 }
 
-function actionApplyer(int, arr) {
+function actionApplyer(int, arrayOfFunctions) {
+  let x = int;
   
+  for (let i = 0; i < arr.length; i++) {
+    x = arrayOfFunctions[i](x);
+  }
 }
