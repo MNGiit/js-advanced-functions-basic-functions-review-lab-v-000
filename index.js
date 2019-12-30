@@ -14,6 +14,6 @@ function wrapAdjective(theSymbol = "*") {
   }
 }
 
-function Calculator() {
+const Calculator() {
   
 }
