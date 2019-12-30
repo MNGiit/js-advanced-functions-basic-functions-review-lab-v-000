@@ -14,6 +14,7 @@ function wrapAdjective(theSymbol = "*") {
   }
 }
 
-const Calculator() {
+// const Object = {}
+const Calculator = {
   
 }
