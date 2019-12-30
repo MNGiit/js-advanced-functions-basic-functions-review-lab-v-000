@@ -1,4 +1,4 @@
 // Your code here
-function saturdayFun(activity = "roller-skate") {
-  const activity = activity;
+function saturdayFun(arg1 = "roller-skate") {
+  const activity = arg1;
 }
