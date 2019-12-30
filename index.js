@@ -37,4 +37,6 @@ function actionApplyer(int, arrayOfFunctions) {
   for (let i = 0; i < arrayOfFunctions.length; i++) {
     x = arrayOfFunctions[i](x);
   }
+  
+  return x;
 }
