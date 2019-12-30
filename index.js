@@ -35,7 +35,7 @@ function actionApplyer(int, arrayOfFunctions) {
   let x = int;
   
   for (let i = 0; i < arrayOfFunctions.length; i++) {
-    x = arrayOfFunctions[i](x);
+    x = arrayOfFunctions[i](x); // weird to see it like this but the variable is a function
   }
   
   return x;
