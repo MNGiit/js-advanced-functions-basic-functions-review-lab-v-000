@@ -34,7 +34,7 @@ const Calculator = {
 function actionApplyer(int, arrayOfFunctions) {
   let x = int;
   
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arrayOfFunctions.length; i++) {
     x = arrayOfFunctions[i](x);
   }
 }
